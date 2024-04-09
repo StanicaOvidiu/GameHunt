@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:wght@100&display=swap");
+
+.arrow {
+  @apply absolute rounded-full z-20 top-0 bottom-0 m-auto flex items-center justify-center w-12 h-12 bg-white cursor-pointer hover:opacity-50;
+}
+
+.button-condition {
+  @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:ring focus:ring-red-800 focus:outline-none transition duration-300;
+}
+
+.icon {
+  @apply w-[45px] h-[45px] rounded-full text-white flex items-center justify-center mr-4;
+}
+
+.icon2 {
+  @apply w-[40px] h-[40px] rounded-full flex items-center justify-center m-[10px] transition duration-300 ease-in-out scale-110 bg-icon;
+}
+
+.info {
+  @apply opacity-0 w-full h-full absolute top-0 left-0 bg-info z-30 flex items-center justify-center transition duration-500 ease-in-out;
+}
+
+.container {
+  @apply flex-1 m-[5px] w-[260px] h-[350PX] flex items-center justify-center bg-container relative;
+}
+
+.container:hover > .info {
+  opacity: 5;
+}

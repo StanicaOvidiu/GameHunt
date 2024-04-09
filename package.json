@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@stripe/stripe-js": "^2.1.0",
+    "firebase": "^10.1.0",
+    "firebase-admin": "^11.10.1",
+    "react-datepicker": "^4.16.0"
+  }
+}
