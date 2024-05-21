@@ -100,15 +100,15 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.google.com/maps/place/Strada+T%C3%A2rgovi%C8%99tei+69,+Moreni+135300/@44.9726785,25.6134137,17z/data=!3m1!4b1!4m5!3m4!1s0x40b257ee07ba52b3:0xf0167b4f67c33d8!8m2!3d44.9726785!4d25.6159886?entry=ttu"
+              href="https://www.google.com/maps/@44.6829386,26.0305387,17.17z?entry=ttu"
             >
               <ImLocation className="absolute mt-[3px]" />
-              <span className="ml-[25px]">Targovistei Street, Number 69A</span>
+              <span className="ml-[25px]">Balo Street</span>
             </a>
           </div>
           <div className="mb-[20px] flex items-center">
             <BsFillTelephoneFill className="mr-[10px]" />
-            <a href="tel:PHONE_NUM">+40727373553</a>
+            <a href="tel:PHONE_NUM">+40722575495</a>
           </div>
           <div className="mb-[20px] flex items-center">
             <HiMail className="mr-[10px]" size={20} />
@@ -120,7 +120,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center justify-center mb-[30px]">
-        @Copyright 2023 developed by Stanica Ovidiu-Stefan. All rights reserved.
+        @Copyright 2023 developed by Stanica Ovidiu. All rights reserved.
       </div>
     </div>
   );
